@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/pub-dev",
+  "title": "Pub Dev",
+  "description": "pub.dev MCP — package registry for Dart & Flutter.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/pub-dev",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-pub-dev",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/pub-dev/mcp"
+    }
+  ]
+}

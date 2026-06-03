@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-pub-dev",
+  "version": "0.1.0",
+  "description": "pub.dev MCP — package registry for Dart & Flutter.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "pub-dev"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-pub-dev"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
