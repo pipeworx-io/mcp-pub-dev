@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-pub-dev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "pub.dev MCP — package registry for Dart & Flutter.",
   "type": "module",
   "main": "src/index.ts",
