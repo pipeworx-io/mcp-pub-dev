@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-pub-dev",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "pub.dev MCP — package registry for Dart & Flutter.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-497a29995780602518e4208eeb49b3473f904c6b1b3e837325d6643c998f0154",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-e3102c7aad586731f6a421fe4438f281698b948322b6be12650cdca3c46d5e71",
+    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
   }
 }
