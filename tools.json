@@ -1,0 +1,70 @@
+[
+  {
+    "name": "get_package",
+    "description": "Get metadata for a Dart/Flutter package on pub.dev: latest version, description, homepage, repository, supported SDK environment, and publish date (from the pubspec).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "pub.dev package name, e.g. \"http\" or \"provider\"."
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  },
+  {
+    "name": "get_package_score",
+    "description": "Get the pub.dev quality score for a Dart/Flutter package: granted/max pub points, like count, popularity, 30-day download count, and classification tags (platforms, SDKs, license).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "pub.dev package name, e.g. \"http\"."
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  },
+  {
+    "name": "search_packages",
+    "description": "Search pub.dev for Dart & Flutter packages by keyword. Returns matching package names and a next-page URL.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search terms, e.g. \"state management\" or \"http client\"."
+        },
+        "page": {
+          "type": "number",
+          "description": "Result page (default 1)."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "list_versions",
+    "description": "List all published versions of a Dart/Flutter package on pub.dev, with each version string and its publish date, plus the current latest version.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "pub.dev package name, e.g. \"http\"."
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  }
+]

@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-pub-dev",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "pub.dev MCP — package registry for Dart & Flutter.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-pub-dev": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "pub-dev"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-pub-dev.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/pub-dev",
   "pipeworx": {
-    "sourceHash": "v1-e3102c7aad586731f6a421fe4438f281698b948322b6be12650cdca3c46d5e71",
-    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
+    "mode": "gateway",
+    "slug": "pub-dev",
+    "gatewaySlug": "pub_dev",
+    "sourceHash": "v1-53a8e5abb7b858df74cce95046b09ad44ad119d491090ee6f9eee309c42ccf9e",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
