@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-pub-dev",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "pub.dev MCP — package registry for Dart & Flutter.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "pub-dev",
     "gatewaySlug": "pub_dev",
-    "sourceHash": "v1-53a8e5abb7b858df74cce95046b09ad44ad119d491090ee6f9eee309c42ccf9e",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-431f4e79199c89d78a6f18eb1d89cd384fae28504e4211ec0342004c699d6482",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
